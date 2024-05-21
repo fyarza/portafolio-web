@@ -1,1 +1,3 @@
-const toggleTheme = () => document.body.classList.toggle("dark");
+import { toggleTheme } from "./source.js";
+
+window.toogleTheme = toggleTheme;
