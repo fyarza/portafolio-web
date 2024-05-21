@@ -5,7 +5,11 @@
     <link rel="icon" type="image/svg+xml" href="https://fyarza.github.io/portafolio-web/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
-    <script type="module" crossorigin src="https://fyarza.github.io/portafolio-web/assets/index-B8HpmTO5.js"></script>
+    <script type="text/javascript">
+      const toggleTheme = () => {
+        document.body.classList.toggle("dark");
+      };
+    </script>
     <link rel="stylesheet" crossorigin href="https://fyarza.github.io/portafolio-web/assets/index-CmMtH3Wa.css">
   </head>
   <body>
@@ -57,12 +61,7 @@
               alt="luna"
             />
           </div>
-          <input
-            id="check"
-            onchange="greetFromHtml();"
-            type="checkbox"
-            hidden
-          />
+          <input id="check" onchange="toggleTheme()" type="checkbox" hidden />
         </label>
       </nav>
       <section
