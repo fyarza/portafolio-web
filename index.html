@@ -5,22 +5,22 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <link rel="stylesheet" href="style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="main.js"></script>
+    <script src="./main.js" type="module"></script>
     <title>Vite App</title>
   </head>
   <body>
     <main class="dark:bg-evil">
-      <nav class="h-20 flex justify-between items-center max-w-7xl mx-auto">
+      <nav class="flex items-center justify-between h-20 mx-auto max-w-7xl">
         <div class="flex items-center gap-6">
           <img
             src="logo-black.png"
             alt="logo"
-            class="dark:hidden inline-block"
+            class="inline-block dark:hidden"
           />
           <img
             src="logo-white.png"
             alt="logo"
-            class="dark:inline-block hidden"
+            class="hidden dark:inline-block"
           />
           <div class="flex gap-6 text-evil dark:text-white">
             <p>Proyectos</p>
@@ -52,7 +52,7 @@
             </div>
 
             <img
-              class="dark:inline-block hidden"
+              class="hidden dark:inline-block"
               src="Vector2.png"
               alt="luna"
             />
